@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nabla&display=swap');
 
 body {
@@ -19,7 +19,7 @@ body {
 
 .header-title {
   font-size: 36px;
-  font-family: 'Nabla', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   margin: 0;
   color: yellow;
