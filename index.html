@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Carta de Restaurante</title>
+</head>
+<body>
+  <header>
+    <h1>Carta de Restaurante</h1>
+  </header>
+  
+  <main>
+  <section class="category">
+    <h2>Platos Principales</h2>
+    <button class="view-button" data-target="platos-principales">Ver Productos</button>
+    <div class="products-list hidden" id="platos-principales-list">
+      <div class="product">
+        <img src="imagenes/images.jpeg" alt="Ojo de Bife">
+        <h3>Ojo de Bife</h3>
+        <p>390gr de Carne, punto de coccion a elección.</p>
+        <p>Precio: $3.900</p>
+      </div>
+      <div class="product">
+        <img src="imagenes/sorrentinos-rellenos-de-jamon-y-queso-con-salsa-marinara.jpg" alt="Sorrentinos de Jamon y Queso">
+        <h3>Sorrentinos de Jamon y Queso</h3>
+        <p>Plato con 6 unidades y salsa a elección.</p>
+        <p>Precio: $2.900</p>
+      </div>
+      <!-- Faltan otros platos que seguire agregando despues -->
+    </div>
+  </section>
+
+  <section class="category">
+    <h2>Entradas</h2>
+    <button class="view-button" data-target="entradas">Ver Productos</button>
+    <div class="products-list hidden" id="entradas-list">
+      <div class="product">
+        <img src="imagenes/thumb04-e1617324738359.jpg" alt="Rabas">
+        <h3>Rabas</h3>
+        <p>Trozo de calamar rebozado y frito.</p>
+        <p>Precio: $2.900</p>
+      </div>
+      <div class="product">
+        <img src="ruta-de-la-imagen-4.jpg" alt="Papas con Cheddar">
+        <h3>Papas con Cheddar</h3>
+        <p>Papas con cheddar, verdeo y panceta.</p>
+        <p>Precio: $2.300</p>
+      </div>
+      <!-- Faltan otras entradas que seguire agregando despues -->
+    </div>
+  </section>
+
+  <section class="category">
+    <h2>Bebidas</h2>
+    <button class="view-button" data-target="bebidas">Ver Productos</button>
+    <div class="products-list hidden" id="bebidas-list">
+      <div class="product">
+        <img src="imagenes/3080006_f.jpg" alt="Coca Cola">
+        <h3>Coca Cola</h3>
+        <p>Botella de Coca Cola sabor original 500ml..</p>
+        <p>Precio: $590</p>
+      </div>
+      <div class="product">
+        <img src="imagenes/521571.jpg" alt="Lata Heineken">
+        <h3>Lata Heineken</h3>
+        <p>Lata de cerveza rubia Heineken 473ml.</p>
+        <p>Precio: $630</p>
+      </div>
+      <!-- Faltan otras bebidas que seguire agregando despues -->
+    </div>
+  </section>
+
+  <section class="category">
+    <h2>Postres</h2>
+    <button class="view-button" data-target="postres">Ver Productos</button>
+    <div class="products-list hidden" id="postres-list">
+      <div class="product">
+        <img src="imagenes/tiramisu-17-500x500.jpg" alt="Tiramisu">
+        <h3>Tiramisu</h3>
+        <p>Porcion de Tiramisu con salsa de sabor a elección.</p>
+        <p>Precio: $1.900</p>
+      </div>
+      <div class="product">
+        <img src="imagenes/whatsapp-image-2020-04-03-at-03.00.55-e1586451007998.jpeg" alt="Chocotorta">
+        <h3>Chocotorta</h3>
+        <p>Porcion de chocotorta ocn salsa de sabor a elección.</p>
+        <p>Precio: $1.600</p>
+      </div>
+      <!-- Faltan otros postres que seguire agregando despues -->
+    </div>
+  </section>
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
